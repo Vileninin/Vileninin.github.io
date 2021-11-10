@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	/* background-image: url(images/background.png); */
+}
+body {
+	height: 100%;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-image: url(images/background.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar {
+	height: 10%;
+	display: flex;
+	align-items: center;
+}
+.log {
+	width: 20px;
+	cursor: pointer;
+}
+.menu-icon {
+	width: 30px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+nav {
+	flex:1;
+	text-align: right;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #293E40;
+	font-size: 15px;
+}
+.row{
+	display: flex;
+	min-height: 40%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h1 {
+	color: #293E40;
+	font-size: 100px;
+}
+.col .card1 p, h5 {
+	background-color: white;
+}
+.col .card2 p, h5 {
+	background-color: white;
+}
+.col .card3 p, h5  {
+	background-color: white;
+}
+.col .card4 p, h5  {
+	background-color: white;
+}
+p {
+	color: #293E40;
+	font-size: 15px;
+	line-height: 20px;
+}
+button {
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius:  20px;
+	outline: none;
+	margin-top: 30px;
+}
+button a {
+	text-decoration: none;
+	background-color: #fff;
+	background-image: none;
+}
+hr {
+	border: none;
+	background-color: black;
+	height: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.card {
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(images/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	text-overflow: ellipsis;
+}
+.card1 {
+	background-image: url(images/FAQs.jpg);
+}
+.card2 {
+	background-image: url(images/Wikis.jpg);
+}
+.card3 {
+	background-image: url(images/internal.jpg);
+}
+.card4 {
+	background-image: url(images/external.png);
+}
+.card:hover {
+	transform: translateY(-10px);
+}
+.footer .social {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer .social a {
+	font-size: 25px;
+	color: black;
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin:0 8px;
+	opacity: 0.75;
+}
+.footer .social a:hover {
+	opacity: 0.9;
+}
+.footer ul {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+.footer ul li a {
+	color: #293E40;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+.footer ul li a:hover {
+	opacity: 1;
+}
+.footer .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
