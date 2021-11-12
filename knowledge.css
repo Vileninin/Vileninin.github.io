@@ -146,3 +146,8 @@ button a {
 	font-size: 13px;
 	color: #aaa;
 }
+@media (max-width:767px){
+  .row{
+    flex-flow: column;
+  }
+}
